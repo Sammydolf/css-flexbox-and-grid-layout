@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: o;
+  box-sizing: border-box;
+}
+body{
+  background-color: white;
+}
+
+li {
+  display: inline;
+}
+
+header div a {
+  color: black;
+  border: 1px solid black;
+  /* border-radius: 30px; */
+  margin-top: 15px;
+  padding: 0.5em 1.5em;
+  text-decoration: none;
+  background-color: green;
+}
+.flex-container{
+  /* width: 50%; */
+  width: 100%;
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vp;
+}
+
+.one{
+  background-color: #cc9933;
+  padding: 3.5em;
+}
+
+.one h3{
+  color: white;
+  font-size: 25px;
+  padding-bottom: 40px;
+}
+.one p{
+  color: white;
+  padding-bottom: 45px;
+}
+
+.two{
+  background-color: #006666;
+  padding: 3.5em;
+}
+.two h3{
+  color: white;
+  font-size: 25px;
+  padding-bottom: 40px;
+}
+.two p{
+  color: white;
+  padding-bottom: 45px;
+}
+
+.three{
+  background-color: #003333;
+  padding: 3.5em;
+}
+.three h3{
+  color: white;
+  font-size: 25px;
+  padding-bottom: 40px;
+}
+.three p{
+  color: white;
+  padding-bottom: 45px;
+}
